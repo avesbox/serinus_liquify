@@ -24,7 +24,7 @@ import 'package:serinus_liquify/serinus_liquify.dart';
 
 Future<void> main() async {
   final app = await serinus.createApplication(
-	entrypoint: AppModule()
+    entrypoint: AppModule()
   );
 
   // Add the Liquify engine to the application
