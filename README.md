@@ -37,7 +37,7 @@ Future<void> main() async {
 
 ## Documentation
 
-You can find the documentation [here](https://serinus.app/plugins/serinus_liquify).
+You can find the documentation [here](https://serinus.app/plugins/serinus_liquify.html).
 
 Also if you need help with Liquify itself you can head to [its github repo](https://github.com/kingwill101/liquify) and check the documentation there.
 
