@@ -1,5 +1,5 @@
-![Serinus Banner](https://raw.githubusercontent.com/avesbox/serinus_liquify/blob/main/assets/serinus_liquify.png)
-
+![Serinus Banner](https://raw.githubusercontent.com/avesbox/serinus_liquify/main/assets/serinus_liquify.png)
+https://github.com
 [![Discord](https://img.shields.io/discord/1099781506978807919?logo=discord&logoColor=white)](https://discord.gg/FPwH2fEUVF)
 
 serinus_liqufiy is the integration of the [Liquify](https://github.com/kingwill101/liquify) template engine and Serinus. Thanks to it you can now easily use the Liquify template engine in your Serinus application.
