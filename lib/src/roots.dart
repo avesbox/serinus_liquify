@@ -3,12 +3,13 @@ import 'dart:io';
 import 'package:liquify/liquify.dart';
 import 'package:serinus_liquify/serinus_liquify.dart';
 
+/// The [Root] implementation provided by the Serinus team. It allows to use the templates on your file system.
 class FileSystemRoot extends Root {
-
   final String rootPath;
   final String? Function()? notFoundCallback;
 
-  FileSystemRoot(this.rootPath, {
+  FileSystemRoot(
+    this.rootPath, {
     this.notFoundCallback,
   }) {
     if (!Directory(rootPath).existsSync()) {
@@ -30,5 +31,4 @@ class FileSystemRoot extends Root {
     }
     return Source.fromString('');
   }
-
 }

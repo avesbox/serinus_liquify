@@ -1,3 +1,4 @@
+/// Error thrown when the root object is not provided.
 class LiquifyEngineMissingRoot extends Error {
   @override
   String toString() {
@@ -5,6 +6,7 @@ class LiquifyEngineMissingRoot extends Error {
   }
 }
 
+/// Error thrown when the root path does not exist.
 class LiquifyEngineMissingRootPath extends Error {
   final String path;
 
