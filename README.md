@@ -1,4 +1,4 @@
-![Serinus Banner](https://raw.githubusercontent.com/avesbox/serinus_liquify/main/assets/serinus_liquify.png)
+![Serinus Banner](https://raw.githubusercontent.com/avesbox/serinus_liquify/blob/main/assets/serinus_liquify.png)
 
 [![Discord](https://img.shields.io/discord/1099781506978807919?logo=discord&logoColor=white)](https://discord.gg/FPwH2fEUVF)
 
