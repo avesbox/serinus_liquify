@@ -39,6 +39,8 @@ Future<void> main() async {
 
 You can find the documentation [here][https://serinus.app/plugins/serinus_liquify].
 
+Also if you need help with Liquify itself you can head to [its github repo](https://github.com/kingwill101/liquify) and check the documentation there.
+
 # License
 
 serinus_liquify and all the other Avesbox Packages are licensed under the MIT license. See the [LICENSE](LICENSE) file for more info.
