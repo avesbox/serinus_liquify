@@ -1,6 +1,6 @@
 name: serinus_liquify
 description: Integration of the Liquify template engine with Serinus.
-version: 1.0.1
+version: 1.0.2
 repository: https://github.com/avesbox/serinus_liquify
 homepage: https://serinus.app/plugins/serinus_liquify.html
 topics:
@@ -14,8 +14,8 @@ environment:
   sdk: '>=3.5.0 <4.0.0'
 
 dependencies:
-  liquify: ^1.0.1
-  serinus: ^1.0.3
+  liquify: ^1.2.0
+  serinus: ^1.0.4
 
 dev_dependencies:
   lints: ^5.0.0
