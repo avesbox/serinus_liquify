@@ -11,17 +11,22 @@ class LiquifyEngine extends ViewEngine {
 
   @override
   Future<String> render(View view) async {
+    if (!view.fromFile) {
+      final template = Template.parse(
+        view.template,
+        data: view.variables, 
+        root: root,
+      );
+      return template.renderAsync();
+    }
     if (root == null) {
       throw LiquifyEngineMissingRoot();
     }
-    final template = Template.fromFile(view.view, root!, data: view.variables);
-    return template.renderAsync();
-  }
-
-  @override
-  Future<String> renderString(ViewString viewString) {
-    final template = Template.parse(viewString.viewData,
-        data: viewString.variables, root: root);
+    final template = Template.fromFile(
+      view.template,
+      root!,
+      data: view.variables,
+    );
     return template.renderAsync();
   }
 }

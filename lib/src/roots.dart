@@ -23,12 +23,12 @@ class FileSystemRoot extends Root {
     final file = File('$rootPath/$normalizedPath');
     if (file.existsSync()) {
       final content = file.readAsStringSync();
-      return Source.fromString(content);
+      return Source(Uri.file(file.path), content, this);
     }
     final notFound = notFoundCallback?.call();
     if (notFound != null) {
-      return Source.fromString(notFound);
+      return Source(null, notFound, this);
     }
-    return Source.fromString('');
+    return Source(null, '', this);
   }
 }

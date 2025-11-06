@@ -13,10 +13,10 @@ packages:
     dependency: transitive
     description:
       name: acanthis
-      sha256: a94d012d17d5a96ae72c4e187c486ccde52bb22d2cbf5a3f715b543c74a872eb
+      sha256: "4805aa5cbac8853a98d0106ae69d4eb7f332e106fa4d311bdbc42dbe399471dd"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.2"
+    version: "1.4.6"
   analyzer:
     dependency: transitive
     description:
@@ -165,10 +165,10 @@ packages:
     dependency: transitive
     description:
       name: html
-      sha256: "1fc58edeaec4307368c60d59b7e15b9d658b57d7f3125098b6294153c75337ec"
+      sha256: "6d1264f2dffa1b1101c25a91dff0dc2daee4c18e87cd8538729773c073dbf602"
       url: "https://pub.dev"
     source: hosted
-    version: "0.15.5"
+    version: "0.15.6"
   html_unescape:
     dependency: transitive
     description:
@@ -237,10 +237,10 @@ packages:
     dependency: "direct main"
     description:
       name: liquify
-      sha256: "76e2d1dfe6fa1cb3fc7ab2107db1f7026b9013561123d874ab001e134bfd285e"
+      sha256: "9ebe78ab8ea7559fb8d48a4b5977b92bd5754962838833a76ff713c82711a988"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.3.1"
   logging:
     dependency: transitive
     description:
@@ -261,10 +261,10 @@ packages:
     dependency: transitive
     description:
       name: meta
-      sha256: e3641ec5d63ebf0d9b41bd43201a66e3fc79a65db5f61fc181f04cd27aab950c
+      sha256: "23f08335362185a5ea2ad3a4e597f1375e78bce8a040df5c600c8d3552ef2394"
       url: "https://pub.dev"
     source: hosted
-    version: "1.16.0"
+    version: "1.17.0"
   mime:
     dependency: transitive
     description:
@@ -273,6 +273,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.0.0"
+  nanoid2:
+    dependency: transitive
+    description:
+      name: nanoid2
+      sha256: "35b5048f836652a1d711db0d716bdee59fcaaa4c37792db8b3568da4f7feb2f9"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.1"
   node_preamble:
     dependency: transitive
     description:
@@ -301,10 +309,10 @@ packages:
     dependency: transitive
     description:
       name: petitparser
-      sha256: "07c8f0b1913bcde1ff0d26e57ace2f3012ccbf2b204e070290dad3bb22797646"
+      sha256: "1a97266a94f7350d30ae522c0af07890c70b8e62c71e8e3920d1db4d23c057d1"
       url: "https://pub.dev"
     source: hosted
-    version: "6.1.0"
+    version: "7.0.1"
   pointycastle:
     dependency: transitive
     description:
@@ -341,10 +349,10 @@ packages:
     dependency: "direct main"
     description:
       name: serinus
-      sha256: dd1c007826f6c655a6b3cf4ab60686de39b66d8ae0db10f5cb502990869cbfa3
+      sha256: ee440d2d81a96da5c39c7b5ade7a42975f859c76e0ebef513790a49465ed899f
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.3"
+    version: "2.0.0"
   shelf:
     dependency: transitive
     description:
@@ -405,10 +413,10 @@ packages:
     dependency: transitive
     description:
       name: spanner
-      sha256: "10aa269fc21a09033c255620bae2ee75d22870f7a1eb9b477fe0fc3444f1105d"
+      sha256: e565aa05e142e32cb7bf630173e18d3cf05d985891c7178fdfd8fdb0658840ca
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.5"
+    version: "1.0.6"
   sprintf:
     dependency: transitive
     description:
@@ -477,10 +485,10 @@ packages:
     dependency: transitive
     description:
       name: timezone
-      sha256: ffc9d5f4d1193534ef051f9254063fa53d588609418c84299956c3db9383587d
+      sha256: dd14a3b83cfd7cb19e7888f1cbc20f258b8d71b54c06f79ac585f14093a287d1
       url: "https://pub.dev"
     source: hosted
-    version: "0.10.0"
+    version: "0.10.1"
   typed_data:
     dependency: transitive
     description:
@@ -533,10 +541,10 @@ packages:
     dependency: transitive
     description:
       name: web_socket_channel
-      sha256: "0b8e2457400d8a859b7b2030786835a28a8e80836ef64402abef392ff4f1d0e5"
+      sha256: d645757fb0f4773d602444000a8131ff5d48c9e47adfe9772652dd1a4f2d45c8
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.2"
+    version: "3.0.3"
   webkit_inspection_protocol:
     dependency: transitive
     description:
@@ -554,4 +562,4 @@ packages:
     source: hosted
     version: "3.1.3"
 sdks:
-  dart: ">=3.7.0 <4.0.0"
+  dart: ">=3.9.0 <4.0.0"
