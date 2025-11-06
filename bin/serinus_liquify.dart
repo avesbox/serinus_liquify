@@ -10,8 +10,8 @@ class AppController extends Controller {
         'Hello, {{ name | upcase }}! Your items are: {% for item in items %}{{ item }}{% unless forloop.last %}, {% endunless %}{% endfor %}.',
         {
           'name': 'Alice',
-          'items': ['apple', 'banana', 'cherry']
-        }
+          'items': ['apple', 'banana', 'cherry'],
+        },
       );
     });
     on(Route.get('/view'), (RequestContext context) async {
@@ -42,8 +42,8 @@ Future<void> main(List<String> arguments) async {
   final application = await serinus.createApplication(entrypoint: AppModule());
 
   application.viewEngine = LiquifyEngine(
-      root:
-          FileSystemRoot('templates', notFoundCallback: () => '404 Not Found'));
+    root: FileSystemRoot('templates', notFoundCallback: () => '404 Not Found'),
+  );
 
   application.serve();
 }

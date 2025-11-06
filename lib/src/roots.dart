@@ -8,10 +8,7 @@ class FileSystemRoot extends Root {
   final String rootPath;
   final String? Function()? notFoundCallback;
 
-  FileSystemRoot(
-    this.rootPath, {
-    this.notFoundCallback,
-  }) {
+  FileSystemRoot(this.rootPath, {this.notFoundCallback}) {
     if (!Directory(rootPath).existsSync()) {
       throw LiquifyEngineMissingRootPath(rootPath);
     }

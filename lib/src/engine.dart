@@ -14,7 +14,7 @@ class LiquifyEngine extends ViewEngine {
     if (!view.fromFile) {
       final template = Template.parse(
         view.template,
-        data: view.variables, 
+        data: view.variables,
         root: root,
       );
       return template.renderAsync();
